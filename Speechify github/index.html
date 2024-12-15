@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpeachMaxx Web App</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>SpeachMaxx</h1>
+    <div id="crowAnimation">
+      <img src="crow.gif" alt="Animated Crow">
+    </div>
+    <p id="statusMessage">Click Start to begin analyzing speech.</p>
+    <button id="startButton">Start Analyzing</button>
+    <button id="stopButton" disabled>Stop Analyzing</button>
+    <canvas id="fillerWordGraph"></canvas>
+  </div>
+</body>
+</html>
